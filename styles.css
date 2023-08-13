@@ -44,7 +44,7 @@ header h1.jumbotron-heading {
 .footer {
   height: 60px;
   line-height: 60px;
-  background: #162032 url(bg-topo3.jpg)  no-repeat center -105px; 
+  background: #162032 url(bg-topo.jpg)  no-repeat center -105px; 
   background-size: cover;
 }
 .text-footer {
