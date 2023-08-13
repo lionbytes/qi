@@ -1,0 +1,17 @@
+{
+  "name": "husrev-frontend",
+  "version": "1.0.0",
+  "description": "Online Learning Platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "Bashar Ghadanfar",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}

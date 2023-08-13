@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Qi قِ</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"  integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link href="https://getbootstrap.com/docs/4.1/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Amiri:400,400i,700,700i&amp;display=swap&amp;subset=arabic,cyrillic,latin-ext" rel="stylesheet">
+
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+    <!-- <link rel="icon" href="favicon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" /> -->
+    
+    <link href="styles.css" rel="stylesheet">
+    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+  <main role="main">
+    <header class="jumbotron text-center mb-0 p-0 shadow-sm" style="background-color: #fff;">
+      <div class="container">
+        <h1 class="jumbotron-heading">
+          <img src="logo.png" alt="Qi قِ" class="img-fluid" alt="logo" style="max-width: 65px;">
+        </h1>
+      </div>
+    </header>
+    
+    <div class="container text-center">
+
+      <div class="row justify-content-center mt-5">
+
+        <div class="col-12 col-md-2 counter text-nowrap mb-0 mt-0 mt-md-auto counter-block">
+          <div class="row">
+            <div class="col-6 col-md-12 mb-2 mb-md-4">
+              <h1 class="text-dark m-0">
+                <div id="displayFajr" class="basic">
+                  <div class="d-inline-block d-md-block value">
+                    <div class="spinner-grow text-dark" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                  </div>
+                  <div class="d-inline-block d-md-block mx-1" style="font-size: 20pt;">فجـــــر</div>
+                </div>
+              </h1>
+            </div>
+            <div class="col-6 col-md-12">
+              <button id="btnIncrFajr" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-plus"></i>
+              </button>
+              <button id="btnDecrFajr" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-minus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-2 counter text-nowrap mb-0 mt-0 mt-md-auto counter-block">
+          <div class="row">
+            <div class="col-6 col-md-12 mb-2 mb-md-4">
+              <h1 class="text-dark m-0">
+                <div id="displayDhuhr" class="basic">
+                  <div class="d-inline-block d-md-block value">
+                    <div class="spinner-grow text-dark" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                  </div>
+                  <div class="d-inline-block d-md-block mx-1" style="font-size: 20pt;">ظهــــر</div>
+                </div>
+              </h1>
+            </div>
+            <div class="col-6 col-md-12">
+              <button id="btnIncrDhuhr" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-plus"></i>
+              </button>
+              <button id="btnDecrDhuhr" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-minus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-2 counter text-nowrap mb-0 mt-0 mt-md-auto counter-block">
+          <div class="row">
+            <div class="col-6 col-md-12 mb-2 mb-md-4">
+              <h1 class="text-dark m-0">
+                <div id="displayAsr" class="basic">
+                  <div class="d-inline-block d-md-block value">
+                    <div class="spinner-grow text-dark" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                  </div>
+                  <div class="d-inline-block d-md-block mx-1" style="font-size: 20pt;">عصــر</div>
+                </div>
+              </h1>
+            </div>
+            <div class="col-6 col-md-12">
+              <button id="btnIncrAsr" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-plus"></i>
+              </button>
+              <button id="btnDecrAsr" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-minus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-2 counter text-nowrap mb-0 mt-0 mt-md-auto counter-block">
+          <div class="row">
+            <div class="col-6 col-md-12 mb-2 mb-md-4">
+              <h1 class="text-dark m-0">
+                <div id="displayMaghrib" class="basic">
+                  <div class="d-inline-block d-md-block value">
+                    <div class="spinner-grow text-dark" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                  </div>
+                  <div class="d-inline-block d-md-block mx-1" style="font-size: 20pt;">مغرب</div>
+                </div>
+              </h1>
+            </div>
+            <div class="col-6 col-md-12">
+              <button id="btnIncrMaghrib" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-plus"></i>
+              </button>
+              <button id="btnDecrMaghrib" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-minus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-2 counter text-nowrap mb-0 mt-0 mt-md-auto counter-block">
+          <div class="row">
+            <div class="col-6 col-md-12 mb-2 mb-md-4">
+              <h1 class="text-dark m-0">
+                <div id="displayIshaa" class="basic">
+                  <div class="d-inline-block d-md-block value">
+                    <div class="spinner-grow text-dark" role="status">
+                      <span class="sr-only">Loading...</span>
+                    </div>
+                  </div>
+                  <div class="d-inline-block d-md-block mx-1" style="font-size: 20pt;">عشــاء</div>
+                </div>
+              </h1>
+            </div>
+            <div class="col-6 col-md-12">
+              <button id="btnIncrIshaa" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-plus"></i>
+              </button>
+              <button id="btnDecrIshaa" type="button" class="btn btn-sm btn-danger btn-orange mx-2 pb-1 rounded m-1">
+                <i class="fa fa-minus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mb-5 counters-big">
+        
+        <!-- Days counter -->
+        <div class="col-12 col-md-4 mb-3 counter-block">
+          <h1 class="jumbotron-heading">
+            <div id="displayDays" class="basic counter text-nowrap">
+              <div class="value">
+                <div class="spinner-grow text-dark" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+              <div style="font-size:30pt;">أيـــام</div>
+            </div>
+          </h1>
+          <button id="btnIncrDays" type="button" class="btn btn-lg btn-danger mx-2 px-3 pb-1 rounded">
+            <i class="fa fa-plus"></i>
+          </button>
+          <button id="btnDecrDays" type="button" class="btn btn-lg btn-danger mx-2 px-3 pb-1 rounded">
+            <i class="fa fa-minus"></i>
+          </button>
+        </div>
+
+        <!-- Weeks counter -->
+        <div class="col-12 col-md-4 mb-3 counter-block">
+          <h1 class="jumbotron-heading">
+            <div id="displayWeeks" class="basic counter text-nowrap">
+              <div class="value">
+                <div class="spinner-grow text-dark" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+              <div style="font-size:30pt;">أســـابيع</div>
+            </div>
+          </h1>
+          <button id="btnIncrWeeks" type="button" class="btn btn-lg btn-warning text-white mx-2 px-3 pb-1 rounded">
+            <i class="fa fa-plus"></i>
+          </button>
+          <button id="btnDecrWeeks" type="button" class="btn btn-lg btn-warning text-white mx-2 px-3 pb-1 rounded">
+            <i class="fa fa-minus"></i>
+          </button>
+        </div>
+
+        <!-- Year counter -->
+        <div class="col-12 col-md-4 mb-3 counter-block">
+          <h1 class="jumbotron-heading">
+            <div id="displayYears" class="basic counter text-nowrap">
+              <div class="value">
+                <div class="spinner-grow text-dark" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </div>
+              <div style="font-size:30pt;">أعـــوام</div>
+            </div>
+          </h1>
+          <button id="btnIncrYears" type="button" class="btn btn-lg btn-primary mx-2 px-3 pb-1 rounded">
+            <i class="fa fa-plus"></i>
+          </button>
+          <button id="btnDecrYears" type="button" class="btn btn-lg btn-primary mx-2 px-3 pb-1 rounded">
+            <i class="fa fa-minus"></i>
+          </button>
+        </div>
+        
+      </div>
+      
+    </div>
+
+  </main>
+  <footer class="footer">
+    <div class="container text-center" style="direction: rtl;">
+      <span class="text-footer">تطبيق <strong>قِ</strong> من تطوير وابتكار
+      <a href="https://www.lionbytes.net" target="_blank" rel="noreferrer">
+          <picture>
+            <source srcset="https://ramz.info/src/images/lionbytes.webp" type="image/webp">
+            <source srcset="https://ramz.info/src/images/lionbytes.png" type="image/png"> 
+            <img src="https://ramz.info/src/images/lionbytes.png" alt="Lionbytes" title="Lionbytes" style="height: 19px;width: auto;margin: 0 -3px;image-rendering: -webkit-optimize-contrast;">
+          </picture>
+        </a>
+</span>
+    </div>
+  </footer>
+
+  <!-- Insert this script tag at the bottom of the <body> section of your HTML file -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    var animation = anime({
+      targets: '.counter-block.anime-counter',
+      translateY: -25,
+      opacity: 0,
+      delay: function(el, i) { return i * 100; },
+      direction: 'reverse',
+      duration: 400,
+      loop: 1,
+      easing: 'easeInOutSine'
+    });
+    
+    animation.restart();
+  </script>
+
+</body></html>
