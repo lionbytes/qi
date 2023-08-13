@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="https://github.com/lionbytes/qi/blob/main/cover.jpg" alt="">
+  <img src="https://github.com/lionbytes/qi/blob/main/cover-slim.jpg" alt="">
 </p>
 
 # Qi قِ  
@@ -9,6 +9,11 @@ A simple JAMstack web app that helps a Muslim track missed daily prayers using i
 ### Waterfall Calculator  
 The calculation of prayers follows the concept of summation through accumulation; whereas   incrementing one prayer (e.g. Ishaa) can have a chain reaction of increments throughout other larger counters (i.e. days, weeks, and years) depending on status of all counters at the time the increment happened.
 
+### Desktop Screenshot
+<p align="center">
+  <img src="https://github.com/lionbytes/qi/blob/main/screenshot.jpg" alt="">
+</p>
+
 ### Technologies Used
 * HTML5
 * CSS3
@@ -16,16 +21,12 @@ The calculation of prayers follows the concept of summation through accumulation
 * Bootstrap 4.x
 * Firebase 8.x
 
-<p align="center">
-  <img src="https://github.com/lionbytes/qi/blob/main/screenshot.jpg" alt="">
-</p>
-
 ### Branding Colors
-#d02a3c (Red)
-#ec6b45 (Orange)
-#d9aa62 (Yellow)
-#38537b (Blue)
-#131d28 (Dark Blue)
+* #d02a3c (Red)
+* #ec6b45 (Orange)
+* #d9aa62 (Yellow)
+* #38537b (Blue)
+* #131d28 (Dark Blue)
 
 ### Used Images
 Background:
