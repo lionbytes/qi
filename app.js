@@ -174,14 +174,14 @@ daysRef.once('value', function(snapshot) {
 });
 
 btnIncrDays.addEventListener("click", e => {
-  const resp = confirm("Add 1 day?");
+  const resp = confirm("هل ترغب بزيادة الأيام بمقدار يوم واحد؟");
   if (resp) {
     incrementDays();
   }
 });
 
 btnDecrDays.addEventListener("click", e => {
-  const resp = confirm("Subtract 1 day?");
+  const resp = confirm("هل ترغب بإنقاص الأيام بمقدار يوم واحد؟");
   if (resp) {
     decrementDays();
   }
@@ -227,13 +227,13 @@ weeksRef.once('value', function(snapshot) {
 });
 
 btnIncrWeeks.addEventListener("click", e => {
-  const resp = confirm("Add 1 week?");
+  const resp = confirm("هل ترغب بزيادة الأسابيع بمقدار أسبوع واحد؟");
   if (resp) {
     incrementWeeks();
   }
 });
 btnDecrWeeks.addEventListener("click", e => {
-  const resp = confirm("Subtract 1 week?");
+  const resp = confirm("هل ترغب بإنقاص الأسابيع بمقدار أسبوع واحد؟");
   if (resp) {
     decrementWeeks();
   }
@@ -269,13 +269,13 @@ yearsRef.once('value', function(snapshot) {
 });
 
 btnIncrYears.addEventListener("click", e => {
-  const resp = confirm("Add 1 year?");
+  const resp = confirm("هل ترغب بزيادة السنين بمقدار سنة واحدة؟");
   if (resp) {
     incrementYears();
   }
 });
 btnDecrYears.addEventListener("click", e => {
-  const resp = confirm("Subtract 1 year?");
+  const resp = confirm("هل ترغب بإنقاص السنين بمقدار سنة واحدة؟");
   if (resp) {
     decrementYears();
   }
