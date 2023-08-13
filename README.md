@@ -1,3 +1,7 @@
+﻿<p align="center">
+  <img src="https://github.com/lionbytes/qi/blob/main/cover.jpg" alt="">
+</p>
+
 # Qi قِ  
   
 A simple JAMstack web app that helps a Muslim track missed daily prayers using input steppers.
@@ -11,6 +15,10 @@ The calculation of prayers follows the concept of summation through accumulation
 * JavaScript
 * Bootstrap 4.x
 * Firebase 8.x
+
+﻿<p align="center">
+  <img src="https://github.com/lionbytes/qi/blob/main/screenshot.png" alt="">
+</p>
 
 ### Branding Colors
 #d02a3c (Red)
