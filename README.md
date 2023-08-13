@@ -9,6 +9,9 @@ A simple JAMstack web app that helps a Muslim track missed daily prayers using i
 ### Waterfall Calculator  
 The calculation of prayers follows the concept of summation through accumulation; whereas   incrementing one prayer (e.g. Ishaa) can have a chain reaction of increments throughout other larger counters (i.e. days, weeks, and years) depending on status of all counters at the time the increment happened.
 
+### Demo Link
+[https://lionbytes.net/qi-demo/][https://lionbytes.net/qi-demo/]
+
 ### Desktop Screenshot
 <p align="center">
   <img src="https://github.com/lionbytes/qi/blob/main/screenshot.jpg" alt="">
