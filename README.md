@@ -16,7 +16,7 @@ The calculation of prayers follows the concept of summation through accumulation
 * Bootstrap 4.x
 * Firebase 8.x
 
-﻿<p align="center">
+<p align="center">
   <img src="https://github.com/lionbytes/qi/blob/main/screenshot.jpg" alt="">
 </p>
 
