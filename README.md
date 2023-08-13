@@ -1,5 +1,5 @@
 ﻿<p align="center">
-  <img src="https://raw.githubusercontent.com/lionbytes/qi/main/cover-slim.jpg" alt="">
+  <img src="https://github.com/lionbytes/qi/blob/main/cover-slim" alt="">
 </p>
 
 # Qi قِ  
