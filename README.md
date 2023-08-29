@@ -8,7 +8,7 @@ A simple JAMstack web app that helps a Muslim track missed daily prayers using i
 For the app to work, you need to add your own Firebase config file to the root folder.  
   
 ### Waterfall Calculator  
-The calculation of prayers follows the concept of summation through accumulation; whereas   incrementing one prayer (e.g. Ishaa) can have a chain reaction of increments throughout other larger counters (i.e. days, weeks, and years) depending on status of all counters at the time the increment happened.
+The calculation of prayers follows the concept of summation through accumulation; whereas   incrementing one prayer (e.g. Ishaa) can have a chain reaction of increments throughout other larger counters (i.e. days, weeks, and years) depending on status of all counters at the time the increment occurs.
 
 ### Demo Link
 https://lionbytes.net/qi-demo/
